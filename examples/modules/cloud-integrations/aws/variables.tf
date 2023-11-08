@@ -1,3 +1,7 @@
+terraform {
+  experiments = [variable_validation]
+}
+
 variable "newrelic_account_id" {
   type = string
 }
